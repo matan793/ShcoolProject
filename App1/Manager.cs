@@ -18,7 +18,7 @@ namespace App1
         {
             this.characterType = characterType;
             if (this.characterType == CharacterType.Spaceship1)
-                this.spaceship1 = new Spaceship1(50, 885, Arena, 100);
+                this.spaceship1 = new Spaceship1(50, 585, Arena, 100);
             else
                 this.spaceship1 = new Spaceship1(50, 885, Arena, 100);
 

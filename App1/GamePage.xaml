@@ -17,6 +17,7 @@
                 <RowDefinition Height="0.05*"></RowDefinition>
                 <RowDefinition Height="1*"></RowDefinition>
             </Grid.RowDefinitions>
+
             <StackPanel Orientation="Horizontal" Grid.Row="0">
                 <TextBlock x:Name="scoreText" FontSize="20" Width="auto" Text="SCORE" Canvas.ZIndex="9" Margin="25,0" VerticalAlignment="Center" HorizontalAlignment="Left" Height="auto" Foreground="Yellow"
                 FontFamily="Fonts/space_invaders.ttf#Space Invaders" />

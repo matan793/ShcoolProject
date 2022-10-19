@@ -28,7 +28,7 @@
                 Grid.Row="0"
                 BorderBrush="Yellow"
                 Foreground="Yellow"
-                FontFamily="Fonts/space_invaders.ttf#Space Invaders"
+                FontFamily="Fonts/space_invaders.ttf#Space Invaders" Click="highScoreBtn_Click"
                 />
         <Button x:Name="settingsBtn" 
                 Content="Settings" 
@@ -38,7 +38,7 @@
                 Grid.Row="0"
                 BorderBrush="Yellow"
                 Foreground="Yellow"
-                FontFamily="Fonts/space_invaders.ttf#Space Invaders"
+                FontFamily="Fonts/space_invaders.ttf#Space Invaders" Click="settingsBtn_Click"
                 />
         <Image x:Name="textBlock" 
                    HorizontalAlignment="Center" 
@@ -54,9 +54,29 @@
                 Foreground="Yellow"
                 FontSize="40"
                 HorizontalAlignment="Center" 
-                VerticalAlignment="Center"
-                Margin="0"
+                VerticalAlignment="Top"
+                Margin="0,106,0,0"
                 Grid.Row="2" RequestedTheme="Light" FontFamily="Fonts/space_invaders.ttf#Space Invaders" Height="76" Width="261" Click="playBtn_Click"/>
+        <Button x:Name="Quit" 
+            VerticalContentAlignment="Bottom"
+            HorizontalContentAlignment="Center"
+            Content=" Quit Game" 
+            BorderBrush="Yellow"
+            Foreground="Yellow"
+            FontSize="40"
+            HorizontalAlignment="Center"
+            Grid.Row="2" RequestedTheme="Light" FontFamily="Fonts/space_invaders.ttf#Space Invaders" Height="76" Width="261" Click="Quit_Click" Margin="0,310,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="logout" 
+            VerticalContentAlignment="Bottom"
+            HorizontalContentAlignment="Center"
+            Content="Logout" 
+            BorderBrush="Yellow"
+            Foreground="Yellow"
+            FontSize="40"
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Top"
+            Margin="0,213,0,0"
+            Grid.Row="2" RequestedTheme="Light" FontFamily="Fonts/space_invaders.ttf#Space Invaders" Height="76" Width="261" Click="logout_Click"/>
 
     </Grid>
 </Page>

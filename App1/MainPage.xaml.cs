@@ -30,7 +30,27 @@ namespace App1
 
         private void playBtn_Click(object sender, RoutedEventArgs e)
         {
-            Frame.Navigate(typeof(ChooseCharacterPage));
+            Frame.Navigate(typeof(GamePage));
+        }
+
+        private void Quit_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Exit();
+        }
+
+        private void highScoreBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate (typeof(HighScores));
+        }
+
+        private void settingsBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Settings));
+        }
+
+        private void logout_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(Login));
         }
     }
 }

@@ -21,6 +21,10 @@ namespace App1
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
+    public sealed class Mirav : FrameworkElement
+    {
+
+    }
     public sealed partial class GamePage : Page
     {
         private Manager myManager;
@@ -28,6 +32,7 @@ namespace App1
         public GamePage()
         {
             this.InitializeComponent();
+            
         }
 
         /// <summary>
